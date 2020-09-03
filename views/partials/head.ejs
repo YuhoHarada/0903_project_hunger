@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <title><%=title%></title>
+</head>
+
+<body>
+    <header>
+        <img src="mark.svg" class="mark" alt="">
+        <nav>
+            <ul>
+                <%navigation.forEach(elt=>{%>
+                <li><a href="<%=elt.url%>"><%=elt.name.toUpperCase()%></a></li>
+                <%})%>
+            </ul>
+        </nav>
+        <section id="hero">
+            <p>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+            <article id="title">
+                <h2>RESTAURANT</h2>
+                <h1>hungry people</h1>
+                <div class="line"></div>
+                <div class="link">
+                    <a href="#" class="btn">BOOK TABLE</a>
+                    <a href="#" class="btn white">EXPLORE</a>
+                </div>
+                <img src="down-btn.svg" alt="">
+            </article>
+            <article id="sns">
+                <a href="#"><img src="facebook.svg" alt=""></a>
+                <a href="#"><img src="twitter.svg" alt=""></a>
+                <a href="#"><img src="instagram.svg" alt=""></a>
+            </article>
+        </section>
+    </header>

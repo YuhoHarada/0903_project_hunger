@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Home",
+        "url": "/",
+        "data": {
+            "headline": "about us",
+            "boldtext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.",
+            "text": "Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.",
+            "image": [
+                "about.png"
+            ]
+        }
+    },
+    {
+        "name": "About",
+        "url": "/#about",
+        "data": {}
+    },
+    {
+        "name": "Team",
+        "url": "/team",
+        "data": {
+            "headline": "MASTER CHEF",
+            "boldtext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.",
+            "text": "Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.",
+            "image": [
+                "team.png"
+            ]
+        }
+    },
+    {
+        "name": "Booking",
+        "url": "/booking",
+        "data": {
+            "image": [
+                "booking.png"
+            ]
+        }
+    },
+    {
+        "name": "Menu",
+        "url": "/menu",
+        "data": {
+            "menu": [
+                {
+                    "name": "soupe",
+                    "list": [
+                        {
+                            "menuName": "soupe menu1",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "6,50€"
+                        },
+                        {
+                            "menuName": "soupe menu2",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        },
+                        {
+                            "menuName": "soupe menu3",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        },
+                        {
+                            "menuName": "soupe menu4",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        },
+                        {
+                            "menuName": "soupe menu5",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        },
+                        {
+                            "menuName": "soupe menu6",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "12,50€"
+                        }
+                    ]
+                },
+                {
+                    "name": "pizza",
+                    "list": [
+                        {
+                            "menuName": "pizza menu1",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "6,50€"
+                        },
+                        {
+                            "menuName": "pizza menu2",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        }
+                    ]
+                },
+                {
+                    "name": "pasta",
+                    "list": [
+                        {
+                            "menuName": "pasta menu1",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "6,50€"
+                        },
+                        {
+                            "menuName": "pasta menu2",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        }
+                    ]
+                },
+                {
+                    "name": "desert",
+                    "list": [
+                        {
+                            "menuName": "desert menu1",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "6,50€"
+                        },
+                        {
+                            "menuName": "desert menu2",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        }
+                    ]
+                },
+                {
+                    "name": "wine",
+                    "list": [
+                        {
+                            "menuName": "wine menu1",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "6,50€"
+                        },
+                        {
+                            "menuName": "wine menu2",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        }
+                    ]
+                },
+                {
+                    "name": "beer",
+                    "list": [
+                        {
+                            "menuName": "beer menu1",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "6,50€"
+                        },
+                        {
+                            "menuName": "beer menu2",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        }
+                    ]
+                },
+                {
+                    "name": "drinks",
+                    "list": [
+                        {
+                            "menuName": "drinks menu1",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "6,50€"
+                        },
+                        {
+                            "menuName": "drinks menu2",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "cost": "7,50€"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "Galerie",
+        "url": "/galerie",
+        "data": {
+            "headline": "chocolate pancakes",
+            "boldtext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.",
+            "text": "Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.",
+            "image": [
+                "galerie.png"
+            ]
+        }
+    },
+    {
+        "name": "Events",
+        "url": "/events",
+        "data": {
+            "image": [
+                "events1.png",
+                "events2.png"
+            ]
+        }
+    },
+    {
+        "name": "Contact",
+        "url": "/contact",
+        "data": {}
+    }
+]

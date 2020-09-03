@@ -1,0 +1,26 @@
+<%- include('./partials/head')%>
+<main id="menu"  class="one">
+    <div class="text">
+        <h2>DELICIOUS MENU</h2>
+        <div class="line"></div>
+        <p class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+    </div>
+    <ul class="menuType">
+        <%menu.forEach(elt=>{%>
+            <li><%= elt.name.toUpperCase() %></li>
+        <%})%>
+    </ul>
+    <div class="menuList">
+        <%menu[0].list.forEach(elt=>{%>
+            <article>
+                <div>
+                    <h3><%= elt.menuName %></h3>
+                    <div class="dot">....</div>
+                    <h3><%= elt.cost %></h3>
+                </div>
+                <h4><%= elt.description %></h4>
+            </article>
+        <%})%>
+    </div>
+</main>
+<%- include('./partials/foot')%>
