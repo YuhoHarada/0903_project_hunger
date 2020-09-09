@@ -6,12 +6,12 @@
         <p class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
     </div>
     <ul class="menuType">
-        <%menu.forEach(elt=>{%>
-            <li><%= elt.name.toUpperCase() %></li>
+        <%menu.forEach((elt,i)=>{%>
+            <li><a href="/menu/<%= i %>#menu"><%= elt.name.toUpperCase() %></a></li>
         <%})%>
     </ul>
     <div class="menuList">
-        <%menu[0].list.forEach(elt=>{%>
+        <%menu[id].list.forEach(elt=>{%>
             <article>
                 <div>
                     <h3><%= elt.menuName %></h3>

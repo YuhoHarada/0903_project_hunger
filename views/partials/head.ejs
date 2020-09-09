@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" <% if(smooth == true){%>
+    <%= 'class=smooth' %>
+    <%}%>  >
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +13,7 @@
 
 <body>
     <header>
-        <img src="mark.svg" class="mark" alt="">
+        <img src="/mark.svg" class="mark" alt="">
         <nav>
             <ul>
                 <%navigation.forEach(elt=>{%>
@@ -29,12 +31,12 @@
                     <a href="#" class="btn">BOOK TABLE</a>
                     <a href="#" class="btn white">EXPLORE</a>
                 </div>
-                <img src="down-btn.svg" alt="">
+                <img src="/down-btn.svg" alt="">
             </article>
             <article id="sns">
-                <a href="#"><img src="facebook.svg" alt=""></a>
-                <a href="#"><img src="twitter.svg" alt=""></a>
-                <a href="#"><img src="instagram.svg" alt=""></a>
+                <a href="#"><img src="/facebook.svg" alt=""></a>
+                <a href="#"><img src="/twitter.svg" alt=""></a>
+                <a href="#"><img src="/instagram.svg" alt=""></a>
             </article>
         </section>
     </header>
