@@ -3,11 +3,12 @@ const app = express()
 const navList = require('./nav.json')
 const fs = require("fs")
 const bodyParser = require('body-parser')
+const PORT = process.env.PORT||3001
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.set('view engine', 'ejs')
 
-app.listen(3001, () => {
+app.listen(PORT, () => {
     console.log('server listening at 3001')
 })
 
